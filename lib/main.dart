@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application_1/calculator.dart';
 // import 'package:flutter_application_1/Sizedbox_example.dart';
-import 'package:flutter_application_1/textfield_example.dart';
+// import 'package:flutter_application_1/textfield_example.dart'; 
 // import 'package:flutter_application_1/buttonexample.dart';
 // import 'package:flutter_application_1/counterapp.dart';
 // import 'package:flutter_application_1/assignment3.dart';
@@ -46,7 +47,8 @@ class MyApp extends StatelessWidget {
       // home: CounterApp(),
       // home: Buttonexample(),
       // home: SizedboxExample(),
-      home: TextfieldExample()
+      // home: TextfieldExample(),
+      home:Calculator(),
     );
   }
 }
