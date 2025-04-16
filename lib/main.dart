@@ -1,10 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/calculator.dart';
+// import 'package:flutter_application_1/assignment3.dart';
+import 'package:flutter_application_1/form_example.dart';
+// import 'package:flutter_application_1/calculator.dart';
 // import 'package:flutter_application_1/Sizedbox_example.dart';
 // import 'package:flutter_application_1/textfield_example.dart'; 
 // import 'package:flutter_application_1/buttonexample.dart';
 // import 'package:flutter_application_1/counterapp.dart';
-// import 'package:flutter_application_1/assignment3.dart';
+
 // import 'package:flutter_application_1/imageinsert.dart';
 // import 'package:flutter_application_1/assignment2.dart';
 // import 'package:flutter_application_1/assignment.dart';
@@ -48,7 +50,9 @@ class MyApp extends StatelessWidget {
       // home: Buttonexample(),
       // home: SizedboxExample(),
       // home: TextfieldExample(),
-      home:Calculator(),
+      // home:Calculator(),
+      home: FormExample(),
+      // home: Assignment3(),
     );
   }
 }
