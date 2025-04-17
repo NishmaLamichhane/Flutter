@@ -71,6 +71,7 @@ class _CalculatorState extends State<Calculator> {
                 ),
                 SizedBox(height: 10),
                 TextField(
+                
                   controller: firstNumberController,
                   decoration: InputDecoration(
                     labelText: 'Enter first Number',
@@ -84,6 +85,7 @@ class _CalculatorState extends State<Calculator> {
                     floatingLabelAlignment: FloatingLabelAlignment.start,
                     floatingLabelBehavior: FloatingLabelBehavior.never,
                   ),
+                   keyboardType: TextInputType.number,
                 ),
                 SizedBox(height: 16),
                 TextField(
@@ -100,6 +102,7 @@ class _CalculatorState extends State<Calculator> {
                     floatingLabelAlignment: FloatingLabelAlignment.start,
                     floatingLabelBehavior: FloatingLabelBehavior.never,
                   ),
+                   keyboardType: TextInputType.number,
                 ),
                 const SizedBox(height: 20),
                 ElevatedButton(
