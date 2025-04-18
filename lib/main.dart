@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+// import 'package:flutter_application_1/design.dart';
 // import 'package:flutter_application_1/assignment3.dart';
 // import 'package:flutter_application_1/form_example.dart';
 // import 'package:flutter_application_1/calculator.dart';
@@ -55,6 +56,7 @@ class MyApp extends StatelessWidget {
       // home: FormExample(),
       // home: Assignment3(),
       home: Homescreencw(),
+      // home:Design(),
     );
   }
 }
